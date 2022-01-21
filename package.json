@@ -1,0 +1,23 @@
+{
+  "name": "version-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch server.json --static /"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabgarc/version-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabgarc/version-server/issues"
+  },
+  "homepage": "https://github.com/gabgarc/version-server#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
